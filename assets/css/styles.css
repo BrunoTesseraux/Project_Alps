@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "poppins";
+  src: url(./../fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: "poppins-b";
+  src: url(./../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "cinzel";
+  src: url(./../fonts/Cinzel-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "cinzel";
+  color: #333;
+}
+header {
+  font-size: 18px;
+  padding-left: 100px;
+  color: #999;
+  margin: 12px 0 13px 0;
+  font-weight: 700;
+}
+
+.a {
+  height: 580px;
+  background: url(https://s3-alpha-sig.figma.com/img/e8d5/ac02/3015f19d657c9e7551017974e9863b37?Expires=1696204800&Signature=TVq9bBnclhLaqktjQ50GQWpH~ysv5EIwhRzOLJSLbkB7qowQaeQJfZMKviwBuAwI0~1oWnHXSka4K5b9ywbLFY0IM8EutckaollTSKwkPqkeoJ1qLTaPui8UtqmuECR8Pi-Gwc56PlQrPXNSL8wmTxs3QXK-iWw3Ycx4N1Ica-YtVuJwU~qL5KXLLv74KW1r7HtEjovnAlzmg224GtqGT7AL~YBj0Qoj3dyokI96tHOGLPxf8N5lMGAuZsAJ4T9VuJyL0karMhPHN5gUaJBN30g99Tsq5oC-ooh4onnOgUtJS81njZxLfyTubLwHiC3I8jX7Cul~BLVkTilJ9ENvYQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  background-size: cover;
+  background-position: 0;
+}
+.b {
+  font-family: "cinzel";
+  font-weight: 600;
+  color: white;
+  font-size: 50px;
+  padding-top: 260px;
+}
+main section h1 {
+  text-align: center;
+  padding: 80px 0 60px 0;
+  font-weight: 0;
+}
+.c {
+  color: #333;
+  font-family: "cinzel";
+}
+.d {
+  color: white;
+  font-family: "cinzel";
+}
+/* main section h1::first-letter {
+  font-size: 27px;
+} */
+/* hat nicht funktioniert, weil ich immer die 2019angesprochen habe, auch wenn ich sie mit ::before einsetzen wollte */
+main section p {
+  font-family: "poppins";
+  text-align: center;
+  padding: 0 150px 77px 150px;
+}
+article {
+  text-align: center;
+}
+img {
+  display: inline-block;
+  width: 425px;
+  transition: 0.2s;
+  padding: 0 35px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+main section h1.e {
+  padding-bottom: 40px;
+  padding-top: 36px;
+  font-weight: 650;
+}
+ul {
+  list-style: none;
+  margin-left: 150px;
+  padding-bottom: 20px;
+}
+li {
+  font-family: "poppins";
+  padding-bottom: 15px;
+}
+li:hover {
+  text-decoration: underline;
+}
+span {
+  color: red;
+  font-family: "poppins";
+  text-transform: uppercase;
+}
+span span {
+  color: green;
+  font-family: "poppins";
+}
+/* ul li::before {
+  content: "\002D";
+  color: inherit;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+ul li:nth-of-type(1)::before {
+  content: "Sept 19-29";
+} */
+/* ich habe zuerst versucht des soa ls übung zu lösen, aber hat irgendiwe nicht ganz geklappt */
+footer {
+  text-align: center;
+}
+footer p {
+  font-size: 24px;
+  color: #333;
+  padding: 40px 0 13px 0;
+  font-weight: 650;
+  border-top: 1px solid #999;
+}
+footer a {
+  text-decoration: none;
+  padding: 0 2px 60px 2px;
+  font-size: 18px;
+  font-family: "poppins-b";
+  font-weight: 700;
+}
+.face {
+  color: #3b5998;
+}
+.twit {
+  color: #1da1f2;
+}
+.inst {
+  color: #c32aa3;
+}
+.face:hover {
+  text-decoration: underline;
+}
+.twit:hover {
+  text-decoration: underline;
+}
+.inst:hover {
+  text-decoration: underline;
+}
